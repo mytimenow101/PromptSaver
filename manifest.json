@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "PromptVault",
+  "description": "Lightweight local prompt manager for AI users.",
+  "version": "0.2.0",
+  "permissions": ["storage", "activeTab", "contextMenus", "sidePanel"],
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "PromptVault",
+    "default_popup": "index.html"
+  },
+  "options_page": "options.html",
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
