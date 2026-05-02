@@ -1,0 +1,1 @@
+export const PromptSearch=({value,onChange}:{value:string;onChange:(v:string)=>void})=><input className="w-full p-2 rounded border" placeholder="Search prompts..." value={value} onChange={e=>onChange(e.target.value)}/>;
